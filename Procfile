@@ -1,1 +1,1 @@
-web: gunicorn postoffice.wsgi --log-file -
+web: gunicorn postoffice.wsgi:application --log-file -
